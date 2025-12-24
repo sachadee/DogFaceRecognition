@@ -1,4 +1,4 @@
-## The most accurate dog face recognitin!!!
+## The most accurate dog face recognition model!!!
 
 # ~96.7% on the DogFaceNet dataset!!
 # Live Demo : [Hugging space](https://huggingface.co/spaces/SachaDee/DogFaceRecognition)
