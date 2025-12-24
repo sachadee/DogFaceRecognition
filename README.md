@@ -53,6 +53,7 @@ The model consists of:
 
 ![Triplets](https://i.ibb.co/mCzG66dS/dogs.png)
 
+
 Triplet loss is the core component of the training process. The loss function ensures that the embeddings generated for images of the same dog are closer than the embeddings of images of different dogs. The loss is defined as:
 $$
 L(A,P,N)=max⁡(0,∥f(A)−f(P)∥2−∥f(A)−f(N)∥2+α)L(A, P, N) = \max(0, \|f(A) - f(P)\|^2 - \|f(A) - f(N)\|^2 + \alpha)L(A,P,N)=max(0,∥f(A)−f(P)∥2−∥f(A)−f(N)∥2+α)
@@ -66,6 +67,8 @@ Where:
 -   α\alphaα is the margin between positive and negative pairs.
 
 ![By SachaDee](https://i.ibb.co/LhXmFQG/hugg.png)
+
+
 ## Ideal Use Case
 
 **NGOs, Pet Insurance Companies and Public Administration**
